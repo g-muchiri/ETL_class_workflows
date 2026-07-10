@@ -8,5 +8,5 @@ def extract_articles():
     articles_data = test_data['articles']
     articles_df = pd.DataFrame(articles_data)
     ##print('Part1 done')
-    return articles_df
+    return articles_data
     
