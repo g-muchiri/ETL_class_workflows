@@ -1,10 +1,11 @@
 import pandas as pd
-import requests
 import os
 from dotenv import load_dotenv
 load_dotenv()
+import pandas as pd
 
 def load_articles(final_articles):
+    final_articles = pd.DataFrame(final_articles)
     from sqlalchemy import create_engine, text
     DATABASE_NAME = os.getenv('DATABASE_NAME')
     DATABASE_USER = os.getenv('DATABASE_USER')
