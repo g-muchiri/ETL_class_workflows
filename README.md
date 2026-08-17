@@ -5,6 +5,7 @@ This is a basic beginner level project that takes us through the process of extr
 Here we use libraries such as requests, json and pandas to read data from the API, convert json data into dictionary and finally to a dataframe that can be easily manipulated in the transform stage
 
 ## Transform 🧹
+
 This project is not necessarily big on transform as we explore a few of the many pandas methods to transform. Here we explore dropping unnecessary columns as method of manipulation
 
 ## Load 🏬
